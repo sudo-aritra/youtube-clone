@@ -5,8 +5,7 @@ p{
 }
 
 .thumbnail {
-    width: 300px;
-    display: block;
+    width: 100%;
 }
 
 .search-bar{
@@ -21,24 +20,9 @@ p{
     margin-bottom: 12px;
 }
 
-.video-preview{
-    display: inline-block;
-    width: 300px;
-    vertical-align: top;
-    margin-right: 15px;
-}
-
 .video-info-grid{
     display: grid;
     grid-template-columns: 50px 1fr;
-}
-
-.channel-picture{
-    
-}
-
-.video-info{
-    
 }
 
 .profile-picture{
@@ -63,4 +47,6 @@ p{
 .video-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 40px;
 }
