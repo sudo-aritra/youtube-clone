@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+}
+
 p{
     font-family: 'Roboto', Arial;
     margin-top: 0px;
@@ -6,10 +10,6 @@ p{
 
 .thumbnail {
     width: 100%;
-}
-
-.search-bar{
-    display: block;
 }
 
 .video-title{
