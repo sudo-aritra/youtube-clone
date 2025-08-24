@@ -74,3 +74,17 @@ p{
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
+
+.video-time{
+    font-family: 'Roboto', Arial;
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    padding: 4px;
+    position: absolute;
+    right: 5px;
+    bottom: 8px;
+    border-radius: 2px;
+    opacity: 0.79;
+}
