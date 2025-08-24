@@ -24,6 +24,12 @@ header{
     height: 24px;
     margin-left: 24px;
     margin-right: 20px;
+    cursor: pointer;
+    transition: background-color 0.15s ease;
+}
+
+.hamburger-menu:hover{
+    background-color: rgba(184, 183, 183, 0.933);
 }
 
 .youtube-logo{
@@ -54,7 +60,7 @@ header{
 
 .search-bar::placeholder{
     font-family: 'Roboto', Arial;
-    font-size: 16px;
+    font-size: 17px;
 }
 
 .search-button{
@@ -85,7 +91,7 @@ header{
 .search-button .tooltip,
 .voice-search-button .tooltip,
 .upload-icon-container .tooltip {
-  font-family: Roboto, Arial;
+  font-family: 'Roboto', Arial;
   position: absolute;
   background-color: gray;
   color: white;
@@ -97,9 +103,9 @@ header{
   font-size: 12px;
   bottom: -30px;
   opacity: 0;
-  transition: opacity 0.15s;
-  pointer-events: none;
+  transition: opacity 0.3s;
   white-space: nowrap;
+  pointer-events: none;
 }
 
 .search-button:hover .tooltip,
@@ -119,7 +125,7 @@ header{
 
 .voice-search-icon{
     height: 24px;
-    margin-top: 4px;
+    margin-top: 2px;
 }
 
 .right-section{
